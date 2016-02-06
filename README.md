@@ -14,12 +14,11 @@ iOS anime social network application written in Swift 2.0, cocoapods, parse and 
 
 ## Requirements
 
-- Xcode 7
-- iOS 8
+- Xcode 7, iOS 8
 
 ## Author
 
-Paul Chavarria, @pjchavarria
+Paul Chavarria [@pjchavarria](http://www.twitter.com/pjchavarria) 
 
 ## License
 
