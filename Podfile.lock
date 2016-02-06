@@ -1,0 +1,65 @@
+PODS:
+  - Alamofire (2.0.2)
+  - CRToast (0.0.9)
+  - FLAnimatedImage (1.0.10)
+  - FontAwesome+iOS (0.1.4)
+  - HCSStarRatingView (1.4.3)
+  - iRate (1.11.4)
+  - JTSImageViewController (1.5.1)
+  - Keys (1.0.0)
+  - MMWormhole (2.0.0):
+    - MMWormhole/Core (= 2.0.0)
+  - MMWormhole/Core (2.0.0)
+  - RMStore (0.7.1):
+    - RMStore/Core (= 0.7.1)
+  - RMStore/Core (0.7.1)
+  - RSKImageCropper (1.5.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - Shimmer (1.0.2)
+  - TTTAttributedLabel (1.13.4)
+  - XCDYouTubeKit (2.4.3)
+  - XLPagerTabStrip (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 2.0)
+  - CRToast (~> 0.0.7)
+  - FLAnimatedImage (~> 1.0)
+  - FontAwesome+iOS
+  - HCSStarRatingView
+  - iRate (~> 1.11.4)
+  - JTSImageViewController (~> 1.3)
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - MMWormhole (~> 2.0.0)
+  - RMStore (~> 0.7)
+  - RSKImageCropper
+  - SDWebImage (~> 3.7.2)
+  - Shimmer
+  - TTTAttributedLabel (~> 1.13.4)
+  - XCDYouTubeKit (~> 2.4.1)
+  - XLPagerTabStrip (~> 1.1.1)
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  FLAnimatedImage: e16a1e1cef08e4c509b47e4acbe3923f65c16135
+  FontAwesome+iOS: 9070b682a9255ca0fdc34bcfb129ad0ba2b73b87
+  HCSStarRatingView: bada6ae98258c3019531e0218030e2d5ad10765a
+  iRate: 599ed07c854e0695f3c605d1b2a64c67d912acb7
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+  Keys: 7d2ff6ff42f6903358267ce56e9392f83c31acfe
+  MMWormhole: 0cd3fd35a9118b2e2d762b499f54eeaace0be791
+  RMStore: 64ba13a9c040e3b7572765d169f77175cd3243e5
+  RSKImageCropper: edd65fedb3734332818deb139906d6b7f54b8a44
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  XCDYouTubeKit: a4a1a60faa7bc97744a1184501e82ef10ca15897
+  XLPagerTabStrip: 222995115ef0d3a7134073b02d38023592835c17
+
+COCOAPODS: 0.39.0

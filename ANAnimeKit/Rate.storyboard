@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5VZ-c4-kvd">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rate View Controller-->
+        <scene sceneID="nB8-IN-WuY">
+            <objects>
+                <viewController id="5VZ-c4-kvd" customClass="RateViewController" customModule="Aozora" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bmO-5n-UMP"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jv1-KP-YHZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OzH-ai-7Zx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oSh-oe-AGQ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="k6l-se-cVc">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K3U-PA-MAS">
+                                            <rect key="frame" x="0.0" y="244" width="600" height="112"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tdL-qK-or5" userLabel="StarRating" customClass="HCSStarRatingView">
+                                                    <rect key="frame" x="225" y="48" width="150" height="44"/>
+                                                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                    <color key="tintColor" red="0.20392157137393951" green="0.59607845544815063" blue="0.85882353782653809" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="150" id="V62-RA-E74"/>
+                                                        <constraint firstAttribute="height" constant="44" id="XcL-ne-8Tx"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                                            <real key="value" value="0.0"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="allowsHalfStars" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                            <real key="value" value="0.0"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="ratingChanged:" destination="5VZ-c4-kvd" eventType="valueChanged" id="mJB-oa-Gnw"/>
+                                                        <action selector="ratingEnded:" destination="5VZ-c4-kvd" eventType="touchUpInside" id="K0Q-GZ-BcG"/>
+                                                        <action selector="ratingEnded:" destination="5VZ-c4-kvd" eventType="touchUpOutside" id="bAu-05-f5V"/>
+                                                    </connections>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Rate Charlotte!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oje-rR-7x5">
+                                                    <rect key="frame" x="233" y="20" width="132.5" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.18823529779911041" green="0.19607843458652496" blue="0.23529411852359772" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="oje-rR-7x5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="K3U-PA-MAS" secondAttribute="leading" id="12d-Nf-607"/>
+                                                <constraint firstAttribute="centerX" secondItem="oje-rR-7x5" secondAttribute="centerX" constant="0.75" id="HuB-eB-luW"/>
+                                                <constraint firstItem="tdL-qK-or5" firstAttribute="top" secondItem="oje-rR-7x5" secondAttribute="bottom" constant="4" id="Pez-h8-G8K"/>
+                                                <constraint firstAttribute="centerX" secondItem="tdL-qK-or5" secondAttribute="centerX" id="Svv-ss-1ez"/>
+                                                <constraint firstAttribute="height" constant="112" id="Z2B-pm-VFd"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oje-rR-7x5" secondAttribute="trailing" id="mMH-cn-dav"/>
+                                                <constraint firstAttribute="centerY" secondItem="oje-rR-7x5" secondAttribute="centerY" constant="24" id="trQ-Fx-Kp5"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <gestureRecognizers/>
+                                    <constraints>
+                                        <constraint firstAttribute="centerY" secondItem="K3U-PA-MAS" secondAttribute="centerY" id="6Ra-sg-t29"/>
+                                        <constraint firstItem="K3U-PA-MAS" firstAttribute="leading" secondItem="k6l-se-cVc" secondAttribute="leading" id="sYk-0F-sQW"/>
+                                        <constraint firstAttribute="trailing" secondItem="K3U-PA-MAS" secondAttribute="trailing" id="uhP-3W-hYl"/>
+                                    </constraints>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="ylB-A8-Joq" appends="YES" id="3Kw-IV-Keg"/>
+                                    </connections>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="oSh-oe-AGQ" secondAttribute="trailing" constant="-16" id="4Vv-wF-D6e"/>
+                            <constraint firstItem="Jv1-KP-YHZ" firstAttribute="top" secondItem="oSh-oe-AGQ" secondAttribute="bottom" id="YSS-PN-lRc"/>
+                            <constraint firstItem="oSh-oe-AGQ" firstAttribute="leading" secondItem="OzH-ai-7Zx" secondAttribute="leadingMargin" constant="-16" id="oKK-fL-iIr"/>
+                            <constraint firstItem="oSh-oe-AGQ" firstAttribute="top" secondItem="bmO-5n-UMP" secondAttribute="bottom" constant="-20" id="pwJ-op-qlV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="oje-rR-7x5" id="ny5-r9-u0w"/>
+                        <outlet property="rateView" destination="K3U-PA-MAS" id="3JS-5p-ESm"/>
+                        <outlet property="starRating" destination="tdL-qK-or5" id="cLB-LX-WeW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="za9-6e-YNt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ylB-A8-Joq">
+                    <connections>
+                        <action selector="dismissViewController:" destination="5VZ-c4-kvd" id="uwf-gl-m5f"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="715" y="373"/>
+        </scene>
+    </scenes>
+</document>

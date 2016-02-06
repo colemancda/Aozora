@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WriteACommentCell" rowHeight="44" id="IM6-bn-eHv" customClass="WriteACommentCell" customModule="ANCommonKit">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IM6-bn-eHv" id="CE8-oB-25Y">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Write a comment..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIt-M3-Ebc">
+                        <rect key="frame" x="51" y="12" width="261" height="19.5"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.65000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x9K-Wk-P6v" userLabel="Separator Top">
+                        <rect key="frame" x="8" y="0.0" width="304" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.89411765340000005" green="0.89411765340000005" blue="0.89411765340000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="HHG-dy-0ww"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PFd-N4-BLo" userLabel="Separator Btm">
+                        <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.89411765340000005" green="0.89411765340000005" blue="0.89411765340000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Tn1-MT-X3b"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="x9K-Wk-P6v" firstAttribute="leading" secondItem="CE8-oB-25Y" secondAttribute="leading" constant="8" id="9iN-di-WaL"/>
+                    <constraint firstItem="IIt-M3-Ebc" firstAttribute="top" secondItem="CE8-oB-25Y" secondAttribute="topMargin" constant="4" id="Fwp-gn-gb8"/>
+                    <constraint firstItem="IIt-M3-Ebc" firstAttribute="leading" secondItem="CE8-oB-25Y" secondAttribute="leadingMargin" constant="60" id="ND0-hn-B3R"/>
+                    <constraint firstItem="IIt-M3-Ebc" firstAttribute="leading" secondItem="CE8-oB-25Y" secondAttribute="leading" constant="51" id="XFU-i3-42p"/>
+                    <constraint firstItem="IIt-M3-Ebc" firstAttribute="trailing" secondItem="CE8-oB-25Y" secondAttribute="trailingMargin" id="Xlu-jE-sbC"/>
+                    <constraint firstAttribute="trailing" secondItem="x9K-Wk-P6v" secondAttribute="trailing" constant="8" id="bQl-Q9-23i"/>
+                    <constraint firstAttribute="trailing" secondItem="PFd-N4-BLo" secondAttribute="trailing" id="f4b-lP-p4W"/>
+                    <constraint firstAttribute="bottom" secondItem="PFd-N4-BLo" secondAttribute="bottom" constant="-0.5" id="gjd-XQ-j6J"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="IIt-M3-Ebc" secondAttribute="bottom" constant="4" id="myU-i0-EdO"/>
+                    <constraint firstItem="IIt-M3-Ebc" firstAttribute="top" secondItem="CE8-oB-25Y" secondAttribute="topMargin" id="qEp-Ae-haW"/>
+                    <constraint firstItem="IIt-M3-Ebc" firstAttribute="bottom" secondItem="CE8-oB-25Y" secondAttribute="bottomMargin" id="tVR-aQ-Kma"/>
+                    <constraint firstItem="x9K-Wk-P6v" firstAttribute="top" secondItem="CE8-oB-25Y" secondAttribute="top" id="uFb-Ye-k7n"/>
+                    <constraint firstItem="PFd-N4-BLo" firstAttribute="leading" secondItem="CE8-oB-25Y" secondAttribute="leading" id="uwz-zH-foP"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ND0-hn-B3R"/>
+                        <exclude reference="qEp-Ae-haW"/>
+                        <exclude reference="tVR-aQ-Kma"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <point key="canvasLocation" x="458" y="415"/>
+        </tableViewCell>
+    </objects>
+</document>

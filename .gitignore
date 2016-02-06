@@ -1,0 +1,31 @@
+.DS_Store
+.Trashes
+*.swp
+*.lock
+*~.nib
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+
+# Cocoapod stuff
+*.orig
+!Podfile.lock
+Pods/**
+*.xccheckout
+
+# For Xcode 6 Playgrounds 
+*.playground
+*.playground/**
+
+/AnimeNow.xcworkspace/
