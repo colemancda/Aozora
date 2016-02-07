@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		02CC39318350F0369922AE8F /* Pods_ANCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9DE4241B72F5FCBEC4C98B /* Pods_ANCommonKit.framework */; };
 		3AFAD54CF969FDB7453A8239 /* Pods_Aozora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528B953CE63CDC314439930C /* Pods_Aozora.framework */; };
-		5D86412D23C2DF6FF9D63C06 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27C7A8ED4F7C96DF08F5850 /* Pods.framework */; };
 		6923F76C724843F5AED124BD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27C7A8ED4F7C96DF08F5850 /* Pods.framework */; };
 		D51AB7658E3CC410078780D3 /* Pods_ANParseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6B34A552164C2E537C6165 /* Pods_ANParseKit.framework */; };
 		DA03F1541B8B188000402AC4 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03F1531B8B188000402AC4 /* NewPostViewController.swift */; };
@@ -702,7 +701,6 @@
 				DAA576A81C669905007E81E6 /* Parse.framework in Frameworks */,
 				DAA576961C669905007E81E6 /* Bolts.framework in Frameworks */,
 				DA6E131E1B10F9E900B278B0 /* libxml2.dylib in Frameworks */,
-				5D86412D23C2DF6FF9D63C06 /* Pods.framework in Frameworks */,
 				DAA576AD1C669BEC007E81E6 /* libz.tbd in Frameworks */,
 				D51AB7658E3CC410078780D3 /* Pods_ANParseKit.framework in Frameworks */,
 			);
@@ -1542,6 +1540,7 @@
 				DA354B3D1C5DF3C2008C729F /* Sources */,
 				DA354B3E1C5DF3C2008C729F /* Frameworks */,
 				DA354B3F1C5DF3C2008C729F /* Resources */,
+				DAA576AF1C66DD76007E81E6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1914,6 +1913,20 @@
 			shellScript = "./Frameworks/Fabric.framework/run d31dc9725e0dde61e63174070b36bfe313c8488d 671d3ff283bb351de6609a065fef69fae3e7e01aaab4f8385b76a4147b609137";
 		};
 		DA4595A51B85A9750044013E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# xcode-build-bump.sh\n# @desc Auto-increment the build number every time the project is run.\n# @usage\n# 1. Select: your Target in Xcode\n# 2. Select: Build Phases Tab\n# 3. Select: Add Build Phase -> Add Run Script\n# 4. Paste code below in to new \"Run Script\" section\n# 5. Drag the \"Run Script\" below \"Link Binaries With Libraries\"\n# 6. Insure that your starting build number is set to a whole integer and not a float (e.g. 1, not 1.0)\n\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${INFOPLIST_FILE}\"";
+			showEnvVarsInLog = 0;
+		};
+		DAA576AF1C66DD76007E81E6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
 			files = (
@@ -2319,7 +2332,7 @@
 				CODE_SIGN_ENTITLEMENTS = Aozora.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2394,7 +2407,7 @@
 				CODE_SIGN_ENTITLEMENTS = Aozora.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2504,6 +2517,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				INFOPLIST_FILE = AozoraWatching/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -2521,6 +2535,7 @@
 				CODE_SIGN_ENTITLEMENTS = AozoraWatching/AozoraWatching.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				INFOPLIST_FILE = AozoraWatching/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -2542,7 +2557,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2594,7 +2609,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2675,7 +2690,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -2757,7 +2772,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
