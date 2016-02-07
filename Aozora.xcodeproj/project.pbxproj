@@ -194,6 +194,121 @@
 		DAA576AA1C669905007E81E6 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA576941C669905007E81E6 /* ParseFacebookUtilsV4.framework */; };
 		DAA576AC1C669BD9007E81E6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFB071B1C14FFC300F7F745 /* libsqlite3.tbd */; };
 		DAA576AD1C669BEC007E81E6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFB071D1C14FFFE00F7F745 /* libz.tbd */; };
+		DAA576B91C66EC2D007E81E6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DD6401B3C95F300B05FBF /* SearchViewController.swift */; };
+		DAA576BA1C66EC2D007E81E6 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4167E21B275CEB00847F56 /* ReviewCell.swift */; };
+		DAA576BB1C66EC2D007E81E6 /* AnimeLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF618751B377CA700286517 /* AnimeLibraryViewController.swift */; };
+		DAA576BC1C66EC2D007E81E6 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE19AB1B29E17F002F3A76 /* CharacterCell.swift */; };
+		DAA576BD1C66EC2D007E81E6 /* InformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4167DE1B275CCC00847F56 /* InformationCell.swift */; };
+		DAA576BE1C66EC2D007E81E6 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58C2DA1B386BC80082B626 /* UserListViewController.swift */; };
+		DAA576BF1C66EC2D007E81E6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC13C041B4056AB0013D479 /* SettingsViewController.swift */; };
+		DAA576C01C66EC2D007E81E6 /* LoadingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC13BF61B3EFC1C0013D479 /* LoadingTableCell.swift */; };
+		DAA576C11C66EC2D007E81E6 /* ThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B26121B75671300A770AE /* ThreadViewController.swift */; };
+		DAA576C21C66EC2D007E81E6 /* AnimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7A7181B2105FD00788614 /* AnimeCell.swift */; };
+		DAA576C31C66EC2D007E81E6 /* InAppTransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3B61D81B4F59E700A3F7BA /* InAppTransactionController.swift */; };
+		DAA576C41C66EC2D007E81E6 /* ForumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF6187B1B3784E300286517 /* ForumsViewController.swift */; };
+		DAA576C51C66EC2D007E81E6 /* InAppPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07A3491B4C2B860028B81B /* InAppPurchaseViewController.swift */; };
+		DAA576C61C66EC2D007E81E6 /* LinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4167E41B275CF500847F56 /* LinkCell.swift */; };
+		DAA576C71C66EC2D007E81E6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA2C5571B66919300152FF9 /* SignInViewController.swift */; };
+		DAA576C81C66EC2D007E81E6 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4167E61B275D3800847F56 /* TitleCell.swift */; };
+		DAA576C91C66EC2D007E81E6 /* PublicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA26C8D1BCC92B1001CF62D /* PublicListViewController.swift */; };
+		DAA576CA1C66EC2D007E81E6 /* AnimeInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4167D11B273B7100847F56 /* AnimeInformationViewController.swift */; };
+		DAA576CB1C66EC2D007E81E6 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52B1821B4838AE001CC1A9 /* CalendarViewController.swift */; };
+		DAA576CC1C66EC2D007E81E6 /* ParseWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27D1981AF1BA9D00CC854E /* ParseWorker.swift */; };
+		DAA576CD1C66EC2D007E81E6 /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B260B1B75192400A770AE /* UserProfileManager.swift */; };
+		DAA576CE1C66EC2D007E81E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27D1961AF1BA9D00CC854E /* AppDelegate.swift */; };
+		DAA576CF1C66EC2D007E81E6 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD6AAB1B62E54F00DDA55C /* RateViewController.swift */; };
+		DAA576D01C66EC2D007E81E6 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58C2E81B3B0B680082B626 /* EpisodeCell.swift */; };
+		DAA576D11C66EC2D007E81E6 /* SynopsisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4167E01B275CDE00847F56 /* SynopsisCell.swift */; };
+		DAA576D21C66EC2D007E81E6 /* TitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA561EC91C5D791C00C3E493 /* TitleHeaderView.swift */; };
+		DAA576D31C66EC2D007E81E6 /* WorkflowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC13C251B42495A0013D479 /* WorkflowController.swift */; };
+		DAA576D41C66EC2D007E81E6 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD79921B30D087009D70ED /* ForumViewController.swift */; };
+		DAA576D51C66EC2D007E81E6 /* ReminderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACD6AB71B6315AA00DDA55C /* ReminderController.swift */; };
+		DAA576D61C66EC2D007E81E6 /* AnimePosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA561ECF1C5D803100C3E493 /* AnimePosterCell.swift */; };
+		DAA576D71C66EC2D007E81E6 /* DialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC7D9051B50464B00898FF6 /* DialogController.swift */; };
+		DAA576D81C66EC2D007E81E6 /* AnimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF618771B377D6000286517 /* AnimeListViewController.swift */; };
+		DAA576D91C66EC2D007E81E6 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA253B51B2B877C0092EB0B /* CharactersViewController.swift */; };
+		DAA576DA1C66EC2D007E81E6 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8DD6421B3CAEC500B05FBF /* FilterViewController.swift */; };
+		DAA576DB1C66EC2D007E81E6 /* CustomThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03F1491B897E4300402AC4 /* CustomThreadViewController.swift */; };
+		DAA576DC1C66EC2D007E81E6 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58C2E61B39C01B0082B626 /* BrowseViewController.swift */; };
+		DAA576DD1C66EC2D007E81E6 /* ChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB83FC61B52FE200006AF96 /* ChartController.swift */; };
+		DAA576DE1C66EC2D007E81E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58C2D81B386BB90082B626 /* ProfileViewController.swift */; };
+		DAA576DF1C66EC2D007E81E6 /* UIApplication+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA546D51BA090C0003989DE /* UIApplication+Navigation.swift */; };
+		DAA576E01C66EC2D007E81E6 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC13C291B424DEF0013D479 /* ResetPasswordViewController.swift */; };
+		DAA576E11C66EC2D007E81E6 /* AnimeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA253B71B2B8AF50092EB0B /* AnimeBaseViewController.swift */; };
+		DAA576E21C66EC2D007E81E6 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA58C2EA1B3B109D0082B626 /* EpisodesViewController.swift */; };
+		DAA576E31C66EC2D007E81E6 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52B1841B483F2A001CC1A9 /* DayViewController.swift */; };
+		DAA576E41C66EC2D007E81E6 /* TableCellWithCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4DCAC1C5CBE1F00924819 /* TableCellWithCollection.swift */; };
+		DAA576E51C66EC2D007E81E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4DCA81C5CB79600924819 /* HomeViewController.swift */; };
+		DAA576E61C66EC2D007E81E6 /* LoadingCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC13BF81B3EFC280013D479 /* LoadingCollectionCell.swift */; };
+		DAA576E71C66EC2D007E81E6 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1340AC1B9E17410073C6EF /* NotificationsViewController.swift */; };
+		DAA576E81C66EC2D007E81E6 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA546D31BA0902E003989DE /* NotificationsController.swift */; };
+		DAA576E91C66EC2D007E81E6 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC13C161B4226E20013D479 /* OnboardingViewController.swift */; };
+		DAA576EA1C66EC2D007E81E6 /* LibraryAnimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF357051B4593E200629A3D /* LibraryAnimeCell.swift */; };
+		DAA576EB1C66EC2D007E81E6 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F45861B8F069C006F9321 /* UIViewController+Navigation.swift */; };
+		DAA576EC1C66EC2D007E81E6 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4167D51B273FA300847F56 /* CustomTabBar.swift */; };
+		DAA576ED1C66EC2D007E81E6 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B26051B75066B00A770AE /* EditProfileViewController.swift */; };
+		DAA576EE1C66EC2D007E81E6 /* NotificationThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA546D11B9EF26E003989DE /* NotificationThreadViewController.swift */; };
+		DAA576EF1C66EC2D007E81E6 /* RootTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA393281B42F21900A8D5D5 /* RootTabBar.swift */; };
+		DAA576F01C66EC2D007E81E6 /* ANAnimeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4167E81B275F9400847F56 /* ANAnimeKit.swift */; };
+		DAA576F11C66EC2D007E81E6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC13C1F1B423ED90013D479 /* SignUpViewController.swift */; };
+		DAA576F21C66EC2D007E81E6 /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAD79941B30D918009D70ED /* TopicCell.swift */; };
+		DAA576F31C66EC2D007E81E6 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBB0941B20EFF700495ED9 /* ChartViewController.swift */; };
+		DAA576F51C66EC2D007E81E6 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC7D8FE1B5018DE00898FF6 /* iAd.framework */; };
+		DAA576F61C66EC2D007E81E6 /* ANCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4AF8B51B276E060020252E /* ANCommonKit.framework */; };
+		DAA576F71C66EC2D007E81E6 /* ANParseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E12AE1B10D94200B278B0 /* ANParseKit.framework */; };
+		DAA576F81C66EC2D007E81E6 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5768C1C669904007E81E6 /* Fabric.framework */; };
+		DAA576F91C66EC2D007E81E6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA576921C669905007E81E6 /* FBSDKShareKit.framework */; };
+		DAA576FA1C66EC2D007E81E6 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA576911C669905007E81E6 /* FBSDKMessengerShareKit.framework */; };
+		DAA576FB1C66EC2D007E81E6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5768A1C669904007E81E6 /* Bolts.framework */; };
+		DAA576FC1C66EC2D007E81E6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5768F1C669905007E81E6 /* FBSDKCoreKit.framework */; };
+		DAA576FD1C66EC2D007E81E6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27C7A8ED4F7C96DF08F5850 /* Pods.framework */; };
+		DAA576FE1C66EC2D007E81E6 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5768E1C669905007E81E6 /* FBAudienceNetwork.framework */; };
+		DAA576FF1C66EC2D007E81E6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA576931C669905007E81E6 /* Parse.framework */; };
+		DAA577001C66EC2D007E81E6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA576901C669905007E81E6 /* FBSDKLoginKit.framework */; };
+		DAA577011C66EC2D007E81E6 /* Pods_Aozora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528B953CE63CDC314439930C /* Pods_Aozora.framework */; };
+		DAA577021C66EC2D007E81E6 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5768B1C669904007E81E6 /* Crashlytics.framework */; };
+		DAA577031C66EC2D007E81E6 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA576941C669905007E81E6 /* ParseFacebookUtilsV4.framework */; };
+		DAA577051C66EC2D007E81E6 /* Anime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4167D31B273B9400847F56 /* Anime.storyboard */; };
+		DAA577061C66EC2D007E81E6 /* AnimePosterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA561ECD1C5D802700C3E493 /* AnimePosterCell.xib */; };
+		DAA577071C66EC2D007E81E6 /* AllerDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C151B4223450013D479 /* AllerDisplay.ttf */; };
+		DAA577081C66EC2D007E81E6 /* Forums.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF6189D1B378FEF00286517 /* Forums.storyboard */; };
+		DAA577091C66EC2D007E81E6 /* Aller_Lt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C121B4223450013D479 /* Aller_Lt.ttf */; };
+		DAA5770A1C66EC2D007E81E6 /* InApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA07A3471B4C2B730028B81B /* InApp.storyboard */; };
+		DAA5770B1C66EC2D007E81E6 /* default-avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC077981B68698F0067DA90 /* default-avatar@2x.png */; };
+		DAA5770C1C66EC2D007E81E6 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAA5768D1C669905007E81E6 /* FacebookSDKStrings.bundle */; };
+		DAA5770D1C66EC2D007E81E6 /* Browse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA58C2E41B39C0080082B626 /* Browse.storyboard */; };
+		DAA5770E1C66EC2D007E81E6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB4DCAA1C5CB7A100924819 /* Home.storyboard */; };
+		DAA5770F1C66EC2D007E81E6 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C021B40569F0013D479 /* Settings.storyboard */; };
+		DAA577101C66EC2D007E81E6 /* Aller_It.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C111B4223450013D479 /* Aller_It.ttf */; };
+		DAA577111C66EC2D007E81E6 /* Season.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA27D19A1AF1BA9D00CC854E /* Season.storyboard */; };
+		DAA577121C66EC2D007E81E6 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF6189F1B378FF700286517 /* Profile.storyboard */; };
+		DAA577131C66EC2D007E81E6 /* Aller_Bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C0F1B4223450013D479 /* Aller_Bd.ttf */; };
+		DAA577141C66EC2D007E81E6 /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC3F3E01B5E989E001D6072 /* Resources.xcassets */; };
+		DAA577151C66EC2D007E81E6 /* TableCellWithCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA561ECB1C5D7D3600C3E493 /* TableCellWithCollection.xib */; };
+		DAA577161C66EC2D007E81E6 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA41679A1B25F76F00847F56 /* FontAwesome.ttf */; };
+		DAA577171C66EC2D007E81E6 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C071B41DF0E0013D479 /* Onboarding.storyboard */; };
+		DAA577181C66EC2D007E81E6 /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF618791B37825700286517 /* Library.storyboard */; };
+		DAA577191C66EC2D007E81E6 /* Aller_Rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C141B4223450013D479 /* Aller_Rg.ttf */; };
+		DAA5771A1C66EC2D007E81E6 /* Aller_LtIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C131B4223450013D479 /* Aller_LtIt.ttf */; };
+		DAA5771B1C66EC2D007E81E6 /* Rate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACD6AAD1B62F4C700DDA55C /* Rate.storyboard */; };
+		DAA5771C1C66EC2D007E81E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA27D19F1AF1BA9D00CC854E /* LaunchScreen.xib */; };
+		DAA5771D1C66EC2D007E81E6 /* anime-scenery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C091B421A730013D479 /* anime-scenery.jpg */; };
+		DAA5771E1C66EC2D007E81E6 /* Forum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF6187F1B37861000286517 /* Forum.storyboard */; };
+		DAA5771F1C66EC2D007E81E6 /* TitleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA561EC71C5D78F400C3E493 /* TitleHeaderView.xib */; };
+		DAA577201C66EC2D007E81E6 /* Thread.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0B26101B7566CF00A770AE /* Thread.storyboard */; };
+		DAA577211C66EC2D007E81E6 /* Aller_BdIt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAC13C101B4223450013D479 /* Aller_BdIt.ttf */; };
+		DAA577221C66EC2D007E81E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA27D19D1AF1BA9D00CC854E /* Images.xcassets */; };
+		DAA577231C66EC2D007E81E6 /* AnimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC13BEE1B3EEF250013D479 /* AnimeCell.xib */; };
+		DAA577271C66EC2D007E81E6 /* ANCommonKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA4AF8B51B276E060020252E /* ANCommonKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DAA577281C66EC2D007E81E6 /* ANParseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA6E12AE1B10D94200B278B0 /* ANParseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DAA577361C66EFCA007E81E6 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA354B451C5DF3C2008C729F /* TodayViewController.swift */; };
+		DAA577371C66EFCA007E81E6 /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA354B591C5DF58F008C729F /* TodayCell.swift */; };
+		DAA577391C66EFCA007E81E6 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA354B421C5DF3C2008C729F /* NotificationCenter.framework */; };
+		DAA5773B1C66EFCA007E81E6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA354B471C5DF3C2008C729F /* MainInterface.storyboard */; };
+		DAA5773C1C66EFCA007E81E6 /* badge-red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA10E9101C60774F0023F41F /* badge-red@2x.png */; };
+		DAA5773D1C66EFCA007E81E6 /* badge-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA10E90F1C60774F0023F41F /* badge-green@2x.png */; };
+		DAA577481C66F0CA007E81E6 /* AnimeTrakrWatching.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DAA577421C66EFCA007E81E6 /* AnimeTrakrWatching.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DAA5774F1C66F2FF007E81E6 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA5774C1C66F17D007E81E6 /* AppEnvironment.swift */; };
 		DAB4DCA91C5CB79600924819 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4DCA81C5CB79600924819 /* HomeViewController.swift */; };
 		DAB4DCAB1C5CB7A100924819 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB4DCAA1C5CB7A100924819 /* Home.storyboard */; };
 		DAB4DCAD1C5CBE1F00924819 /* TableCellWithCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4DCAC1C5CBE1F00924819 /* TableCellWithCollection.swift */; };
@@ -325,6 +440,34 @@
 			remoteGlobalIDString = DA6E12AD1B10D94200B278B0;
 			remoteInfo = ANParseKit;
 		};
+		DAA576B21C66EC2D007E81E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA27D1891AF1BA9D00CC854E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4AF8B41B276E060020252E;
+			remoteInfo = ANCommonKit;
+		};
+		DAA576B41C66EC2D007E81E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA27D1891AF1BA9D00CC854E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA6E12AD1B10D94200B278B0;
+			remoteInfo = ANParseKit;
+		};
+		DAA577341C66EFCA007E81E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA27D1891AF1BA9D00CC854E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4AF8B41B276E060020252E;
+			remoteInfo = ANCommonKit;
+		};
+		DAA577461C66F09E007E81E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA27D1891AF1BA9D00CC854E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA577321C66EFCA007E81E6;
+			remoteInfo = AnimeTrakrWatching;
+		};
 		DAB0126C1B5448930095AA3B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA27D1891AF1BA9D00CC854E /* Project object */;
@@ -356,6 +499,29 @@
 				DA6E12C61B10D94200B278B0 /* ANParseKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA577261C66EC2D007E81E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DAA577271C66EC2D007E81E6 /* ANCommonKit.framework in Embed Frameworks */,
+				DAA577281C66EC2D007E81E6 /* ANParseKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA577491C66F0CA007E81E6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DAA577481C66F0CA007E81E6 /* AnimeTrakrWatching.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -539,6 +705,14 @@
 		DAA576921C669905007E81E6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = Frameworks/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		DAA576931C669905007E81E6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Frameworks/Parse.framework; sourceTree = "<group>"; };
 		DAA576941C669905007E81E6 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = Frameworks/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		DAA577301C66EC2D007E81E6 /* AnimeTrakr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeTrakr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA577311C66EC2D007E81E6 /* Aozora copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Aozora copy-Info.plist"; path = "/Users/paul/Documents/Aozora/Aozora/Aozora copy-Info.plist"; sourceTree = "<absolute>"; };
+		DAA577421C66EFCA007E81E6 /* AnimeTrakrWatching.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AnimeTrakrWatching.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA577431C66EFCA007E81E6 /* AozoraWatching copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AozoraWatching copy-Info.plist"; path = "/Users/paul/Documents/Aozora/Aozora/AozoraWatching copy-Info.plist"; sourceTree = "<absolute>"; };
+		DAA577441C66F01C007E81E6 /* AnimeTrakrWatching.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = AnimeTrakrWatching.entitlements; path = ../AnimeTrakrWatching.entitlements; sourceTree = "<group>"; };
+		DAA577451C66F051007E81E6 /* AnimeTrakr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = AnimeTrakr.entitlements; path = ../AnimeTrakr.entitlements; sourceTree = "<group>"; };
+		DAA5774C1C66F17D007E81E6 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEnvironment.swift; path = ../AnimeNow/AppEnvironment.swift; sourceTree = "<group>"; };
+		DAA577501C66F4C0007E81E6 /* Aozora.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Aozora.entitlements; sourceTree = SOURCE_ROOT; };
 		DAAD79921B30D087009D70ED /* ForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForumViewController.swift; path = ../ANAnimeKit/ForumViewController.swift; sourceTree = "<group>"; };
 		DAAD79941B30D918009D70ED /* TopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
 		DAB4DCA81C5CB79600924819 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -714,6 +888,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DAA576F41C66EC2D007E81E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA576F51C66EC2D007E81E6 /* iAd.framework in Frameworks */,
+				DAA576F61C66EC2D007E81E6 /* ANCommonKit.framework in Frameworks */,
+				DAA576F71C66EC2D007E81E6 /* ANParseKit.framework in Frameworks */,
+				DAA576F81C66EC2D007E81E6 /* Fabric.framework in Frameworks */,
+				DAA576F91C66EC2D007E81E6 /* FBSDKShareKit.framework in Frameworks */,
+				DAA576FA1C66EC2D007E81E6 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				DAA576FB1C66EC2D007E81E6 /* Bolts.framework in Frameworks */,
+				DAA576FC1C66EC2D007E81E6 /* FBSDKCoreKit.framework in Frameworks */,
+				DAA576FD1C66EC2D007E81E6 /* Pods.framework in Frameworks */,
+				DAA576FE1C66EC2D007E81E6 /* FBAudienceNetwork.framework in Frameworks */,
+				DAA576FF1C66EC2D007E81E6 /* Parse.framework in Frameworks */,
+				DAA577001C66EC2D007E81E6 /* FBSDKLoginKit.framework in Frameworks */,
+				DAA577011C66EC2D007E81E6 /* Pods_Aozora.framework in Frameworks */,
+				DAA577021C66EC2D007E81E6 /* Crashlytics.framework in Frameworks */,
+				DAA577031C66EC2D007E81E6 /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA577381C66EFCA007E81E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA577391C66EFCA007E81E6 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -792,6 +996,8 @@
 				DA27D1921AF1BA9D00CC854E /* Products */,
 				2DF8950C3183A94B152DA94F /* Pods */,
 				F4F69FB5D8335951A772F9AC /* Frameworks */,
+				DAA577311C66EC2D007E81E6 /* Aozora copy-Info.plist */,
+				DAA577431C66EFCA007E81E6 /* AozoraWatching copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -805,6 +1011,8 @@
 				DA4AF8B51B276E060020252E /* ANCommonKit.framework */,
 				DA4AF8BF1B276E060020252E /* ANCommonKitTests.xctest */,
 				DA354B411C5DF3C2008C729F /* AozoraWatching.appex */,
+				DAA577301C66EC2D007E81E6 /* AnimeTrakr.app */,
+				DAA577421C66EFCA007E81E6 /* AnimeTrakrWatching.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -812,8 +1020,12 @@
 		DA27D1931AF1BA9D00CC854E /* Aozora */ = {
 			isa = PBXGroup;
 			children = (
+				DAA577501C66F4C0007E81E6 /* Aozora.entitlements */,
+				DAA577451C66F051007E81E6 /* AnimeTrakr.entitlements */,
+				DAA577441C66F01C007E81E6 /* AnimeTrakrWatching.entitlements */,
 				DA27D1981AF1BA9D00CC854E /* ParseWorker.swift */,
 				DA27D1961AF1BA9D00CC854E /* AppDelegate.swift */,
+				DAA5774B1C66F161007E81E6 /* App */,
 				DAC13BFC1B3F368D0013D479 /* Extensions */,
 				DAA393271B42F1F100A8D5D5 /* Controllers */,
 				DAE7A7151B2105D000788614 /* Views */,
@@ -889,6 +1101,7 @@
 		DA354B5F1C5EC87A008C729F /* AppGroup */ = {
 			isa = PBXGroup;
 			children = (
+				DAA5774C1C66F17D007E81E6 /* AppEnvironment.swift */,
 				DA354B601C5EC890008C729F /* AnimeData.swift */,
 				DA5B28671C5EE3F500EACCE3 /* WormholeExtensions.swift */,
 			);
@@ -1146,6 +1359,13 @@
 				DAF6187E1B3785FC00286517 /* Forum */,
 			);
 			name = Anime;
+			sourceTree = "<group>";
+		};
+		DAA5774B1C66F161007E81E6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 		DAB4DCA71C5CB78700924819 /* Home */ = {
@@ -1631,6 +1851,52 @@
 			productReference = DA6E12B81B10D94200B278B0 /* ANParseKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DAA576B01C66EC2D007E81E6 /* AnimeTrakr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA5772D1C66EC2D007E81E6 /* Build configuration list for PBXNativeTarget "AnimeTrakr" */;
+			buildPhases = (
+				DAA576B71C66EC2D007E81E6 /* Check Pods Manifest.lock */,
+				DAA576B81C66EC2D007E81E6 /* Sources */,
+				DAA576F41C66EC2D007E81E6 /* Frameworks */,
+				DAA577041C66EC2D007E81E6 /* Resources */,
+				DAA577241C66EC2D007E81E6 /* Embed Pods Frameworks */,
+				DAA577251C66EC2D007E81E6 /* Copy Pods Resources */,
+				DAA577261C66EC2D007E81E6 /* Embed Frameworks */,
+				DAA577291C66EC2D007E81E6 /* ShellScript */,
+				DAA5772A1C66EC2D007E81E6 /* ShellScript */,
+				DAA577491C66F0CA007E81E6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA577471C66F09E007E81E6 /* PBXTargetDependency */,
+				DAA576B11C66EC2D007E81E6 /* PBXTargetDependency */,
+				DAA576B31C66EC2D007E81E6 /* PBXTargetDependency */,
+			);
+			name = AnimeTrakr;
+			productName = AnimeNow;
+			productReference = DAA577301C66EC2D007E81E6 /* AnimeTrakr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAA577321C66EFCA007E81E6 /* AnimeTrakrWatching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA5773F1C66EFCA007E81E6 /* Build configuration list for PBXNativeTarget "AnimeTrakrWatching" */;
+			buildPhases = (
+				DAA577351C66EFCA007E81E6 /* Sources */,
+				DAA577381C66EFCA007E81E6 /* Frameworks */,
+				DAA5773A1C66EFCA007E81E6 /* Resources */,
+				DAA5773E1C66EFCA007E81E6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA577331C66EFCA007E81E6 /* PBXTargetDependency */,
+			);
+			name = AnimeTrakrWatching;
+			productName = AozoraWatching;
+			productReference = DAA577421C66EFCA007E81E6 /* AnimeTrakrWatching.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1681,6 +1947,22 @@
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = DA27D1901AF1BA9D00CC854E;
 					};
+					DAA576B01C66EC2D007E81E6 = {
+						DevelopmentTeam = Q9KPP7C7F3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DAA577321C66EFCA007E81E6 = {
+						DevelopmentTeam = Q9KPP7C7F3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = DA27D18C1AF1BA9D00CC854E /* Build configuration list for PBXProject "Aozora" */;
@@ -1697,12 +1979,14 @@
 			projectRoot = "";
 			targets = (
 				DA27D1901AF1BA9D00CC854E /* Aozora */,
+				DAA576B01C66EC2D007E81E6 /* AnimeTrakr */,
 				DA27D1A51AF1BA9D00CC854E /* AozoraTests */,
 				DA4AF8B41B276E060020252E /* ANCommonKit */,
 				DA4AF8BE1B276E060020252E /* ANCommonKitTests */,
 				DA6E12AD1B10D94200B278B0 /* ANParseKit */,
 				DA6E12B71B10D94200B278B0 /* ANParseKitTests */,
 				DA354B401C5DF3C2008C729F /* AozoraWatching */,
+				DAA577321C66EFCA007E81E6 /* AnimeTrakrWatching */,
 			);
 		};
 /* End PBXProject section */
@@ -1803,6 +2087,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA577041C66EC2D007E81E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA577051C66EC2D007E81E6 /* Anime.storyboard in Resources */,
+				DAA577061C66EC2D007E81E6 /* AnimePosterCell.xib in Resources */,
+				DAA577071C66EC2D007E81E6 /* AllerDisplay.ttf in Resources */,
+				DAA577081C66EC2D007E81E6 /* Forums.storyboard in Resources */,
+				DAA577091C66EC2D007E81E6 /* Aller_Lt.ttf in Resources */,
+				DAA5770A1C66EC2D007E81E6 /* InApp.storyboard in Resources */,
+				DAA5770B1C66EC2D007E81E6 /* default-avatar@2x.png in Resources */,
+				DAA5770C1C66EC2D007E81E6 /* FacebookSDKStrings.bundle in Resources */,
+				DAA5770D1C66EC2D007E81E6 /* Browse.storyboard in Resources */,
+				DAA5770E1C66EC2D007E81E6 /* Home.storyboard in Resources */,
+				DAA5770F1C66EC2D007E81E6 /* Settings.storyboard in Resources */,
+				DAA577101C66EC2D007E81E6 /* Aller_It.ttf in Resources */,
+				DAA577111C66EC2D007E81E6 /* Season.storyboard in Resources */,
+				DAA577121C66EC2D007E81E6 /* Profile.storyboard in Resources */,
+				DAA577131C66EC2D007E81E6 /* Aller_Bd.ttf in Resources */,
+				DAA577141C66EC2D007E81E6 /* Resources.xcassets in Resources */,
+				DAA577151C66EC2D007E81E6 /* TableCellWithCollection.xib in Resources */,
+				DAA577161C66EC2D007E81E6 /* FontAwesome.ttf in Resources */,
+				DAA577171C66EC2D007E81E6 /* Onboarding.storyboard in Resources */,
+				DAA577181C66EC2D007E81E6 /* Library.storyboard in Resources */,
+				DAA577191C66EC2D007E81E6 /* Aller_Rg.ttf in Resources */,
+				DAA5771A1C66EC2D007E81E6 /* Aller_LtIt.ttf in Resources */,
+				DAA5771B1C66EC2D007E81E6 /* Rate.storyboard in Resources */,
+				DAA5771C1C66EC2D007E81E6 /* LaunchScreen.xib in Resources */,
+				DAA5771D1C66EC2D007E81E6 /* anime-scenery.jpg in Resources */,
+				DAA5771E1C66EC2D007E81E6 /* Forum.storyboard in Resources */,
+				DAA5771F1C66EC2D007E81E6 /* TitleHeaderView.xib in Resources */,
+				DAA577201C66EC2D007E81E6 /* Thread.storyboard in Resources */,
+				DAA577211C66EC2D007E81E6 /* Aller_BdIt.ttf in Resources */,
+				DAA577221C66EC2D007E81E6 /* Images.xcassets in Resources */,
+				DAA577231C66EC2D007E81E6 /* AnimeCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA5773A1C66EFCA007E81E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA5773B1C66EFCA007E81E6 /* MainInterface.storyboard in Resources */,
+				DAA5773C1C66EFCA007E81E6 /* badge-red@2x.png in Resources */,
+				DAA5773D1C66EFCA007E81E6 /* badge-green@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1927,6 +2259,92 @@
 			showEnvVarsInLog = 0;
 		};
 		DAA576AF1C66DD76007E81E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# xcode-build-bump.sh\n# @desc Auto-increment the build number every time the project is run.\n# @usage\n# 1. Select: your Target in Xcode\n# 2. Select: Build Phases Tab\n# 3. Select: Add Build Phase -> Add Run Script\n# 4. Paste code below in to new \"Run Script\" section\n# 5. Drag the \"Run Script\" below \"Link Binaries With Libraries\"\n# 6. Insure that your starting build number is set to a whole integer and not a float (e.g. 1, not 1.0)\n\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${INFOPLIST_FILE}\"";
+			showEnvVarsInLog = 0;
+		};
+		DAA576B71C66EC2D007E81E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA577241C66EC2D007E81E6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aozora/Pods-Aozora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA577251C66EC2D007E81E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aozora/Pods-Aozora-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA577291C66EC2D007E81E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Frameworks/Fabric.framework/run d31dc9725e0dde61e63174070b36bfe313c8488d 671d3ff283bb351de6609a065fef69fae3e7e01aaab4f8385b76a4147b609137";
+		};
+		DAA5772A1C66EC2D007E81E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# xcode-build-bump.sh\n# @desc Auto-increment the build number every time the project is run.\n# @usage\n# 1. Select: your Target in Xcode\n# 2. Select: Build Phases Tab\n# 3. Select: Add Build Phase -> Add Run Script\n# 4. Paste code below in to new \"Run Script\" section\n# 5. Drag the \"Run Script\" below \"Link Binaries With Libraries\"\n# 6. Insure that your starting build number is set to a whole integer and not a float (e.g. 1, not 1.0)\n\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${INFOPLIST_FILE}\"";
+			showEnvVarsInLog = 0;
+		};
+		DAA5773E1C66EFCA007E81E6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
 			files = (
@@ -2073,6 +2491,7 @@
 				DA5A3BF81B35EE2200C07D71 /* CustomTextField.swift in Sources */,
 				DA8BA7EF1C668B680023299C /* BasicCollectionCell.swift in Sources */,
 				DAFD60B51B278452007275C1 /* ActionListViewController.swift in Sources */,
+				DAA5774F1C66F2FF007E81E6 /* AppEnvironment.swift in Sources */,
 				DAFD60BB1B27845F007275C1 /* LoaderView.swift in Sources */,
 				DA8BA7EA1C668A870023299C /* WriteACommentCell.swift in Sources */,
 				DAC027CF1B2A1C3F0085C91A /* ZFModalTransitionAnimator.m in Sources */,
@@ -2155,6 +2574,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DAA576B81C66EC2D007E81E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA576B91C66EC2D007E81E6 /* SearchViewController.swift in Sources */,
+				DAA576BA1C66EC2D007E81E6 /* ReviewCell.swift in Sources */,
+				DAA576BB1C66EC2D007E81E6 /* AnimeLibraryViewController.swift in Sources */,
+				DAA576BC1C66EC2D007E81E6 /* CharacterCell.swift in Sources */,
+				DAA576BD1C66EC2D007E81E6 /* InformationCell.swift in Sources */,
+				DAA576BE1C66EC2D007E81E6 /* UserListViewController.swift in Sources */,
+				DAA576BF1C66EC2D007E81E6 /* SettingsViewController.swift in Sources */,
+				DAA576C01C66EC2D007E81E6 /* LoadingTableCell.swift in Sources */,
+				DAA576C11C66EC2D007E81E6 /* ThreadViewController.swift in Sources */,
+				DAA576C21C66EC2D007E81E6 /* AnimeCell.swift in Sources */,
+				DAA576C31C66EC2D007E81E6 /* InAppTransactionController.swift in Sources */,
+				DAA576C41C66EC2D007E81E6 /* ForumsViewController.swift in Sources */,
+				DAA576C51C66EC2D007E81E6 /* InAppPurchaseViewController.swift in Sources */,
+				DAA576C61C66EC2D007E81E6 /* LinkCell.swift in Sources */,
+				DAA576C71C66EC2D007E81E6 /* SignInViewController.swift in Sources */,
+				DAA576C81C66EC2D007E81E6 /* TitleCell.swift in Sources */,
+				DAA576C91C66EC2D007E81E6 /* PublicListViewController.swift in Sources */,
+				DAA576CA1C66EC2D007E81E6 /* AnimeInformationViewController.swift in Sources */,
+				DAA576CB1C66EC2D007E81E6 /* CalendarViewController.swift in Sources */,
+				DAA576CC1C66EC2D007E81E6 /* ParseWorker.swift in Sources */,
+				DAA576CD1C66EC2D007E81E6 /* UserProfileManager.swift in Sources */,
+				DAA576CE1C66EC2D007E81E6 /* AppDelegate.swift in Sources */,
+				DAA576CF1C66EC2D007E81E6 /* RateViewController.swift in Sources */,
+				DAA576D01C66EC2D007E81E6 /* EpisodeCell.swift in Sources */,
+				DAA576D11C66EC2D007E81E6 /* SynopsisCell.swift in Sources */,
+				DAA576D21C66EC2D007E81E6 /* TitleHeaderView.swift in Sources */,
+				DAA576D31C66EC2D007E81E6 /* WorkflowController.swift in Sources */,
+				DAA576D41C66EC2D007E81E6 /* ForumViewController.swift in Sources */,
+				DAA576D51C66EC2D007E81E6 /* ReminderController.swift in Sources */,
+				DAA576D61C66EC2D007E81E6 /* AnimePosterCell.swift in Sources */,
+				DAA576D71C66EC2D007E81E6 /* DialogController.swift in Sources */,
+				DAA576D81C66EC2D007E81E6 /* AnimeListViewController.swift in Sources */,
+				DAA576D91C66EC2D007E81E6 /* CharactersViewController.swift in Sources */,
+				DAA576DA1C66EC2D007E81E6 /* FilterViewController.swift in Sources */,
+				DAA576DB1C66EC2D007E81E6 /* CustomThreadViewController.swift in Sources */,
+				DAA576DC1C66EC2D007E81E6 /* BrowseViewController.swift in Sources */,
+				DAA576DD1C66EC2D007E81E6 /* ChartController.swift in Sources */,
+				DAA576DE1C66EC2D007E81E6 /* ProfileViewController.swift in Sources */,
+				DAA576DF1C66EC2D007E81E6 /* UIApplication+Navigation.swift in Sources */,
+				DAA576E01C66EC2D007E81E6 /* ResetPasswordViewController.swift in Sources */,
+				DAA576E11C66EC2D007E81E6 /* AnimeBaseViewController.swift in Sources */,
+				DAA576E21C66EC2D007E81E6 /* EpisodesViewController.swift in Sources */,
+				DAA576E31C66EC2D007E81E6 /* DayViewController.swift in Sources */,
+				DAA576E41C66EC2D007E81E6 /* TableCellWithCollection.swift in Sources */,
+				DAA576E51C66EC2D007E81E6 /* HomeViewController.swift in Sources */,
+				DAA576E61C66EC2D007E81E6 /* LoadingCollectionCell.swift in Sources */,
+				DAA576E71C66EC2D007E81E6 /* NotificationsViewController.swift in Sources */,
+				DAA576E81C66EC2D007E81E6 /* NotificationsController.swift in Sources */,
+				DAA576E91C66EC2D007E81E6 /* OnboardingViewController.swift in Sources */,
+				DAA576EA1C66EC2D007E81E6 /* LibraryAnimeCell.swift in Sources */,
+				DAA576EB1C66EC2D007E81E6 /* UIViewController+Navigation.swift in Sources */,
+				DAA576EC1C66EC2D007E81E6 /* CustomTabBar.swift in Sources */,
+				DAA576ED1C66EC2D007E81E6 /* EditProfileViewController.swift in Sources */,
+				DAA576EE1C66EC2D007E81E6 /* NotificationThreadViewController.swift in Sources */,
+				DAA576EF1C66EC2D007E81E6 /* RootTabBar.swift in Sources */,
+				DAA576F01C66EC2D007E81E6 /* ANAnimeKit.swift in Sources */,
+				DAA576F11C66EC2D007E81E6 /* SignUpViewController.swift in Sources */,
+				DAA576F21C66EC2D007E81E6 /* TopicCell.swift in Sources */,
+				DAA576F31C66EC2D007E81E6 /* ChartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA577351C66EFCA007E81E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA577361C66EFCA007E81E6 /* TodayViewController.swift in Sources */,
+				DAA577371C66EFCA007E81E6 /* TodayCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2202,6 +2696,26 @@
 			isa = PBXTargetDependency;
 			target = DA6E12AD1B10D94200B278B0 /* ANParseKit */;
 			targetProxy = DA6E12C31B10D94200B278B0 /* PBXContainerItemProxy */;
+		};
+		DAA576B11C66EC2D007E81E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4AF8B41B276E060020252E /* ANCommonKit */;
+			targetProxy = DAA576B21C66EC2D007E81E6 /* PBXContainerItemProxy */;
+		};
+		DAA576B31C66EC2D007E81E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA6E12AD1B10D94200B278B0 /* ANParseKit */;
+			targetProxy = DAA576B41C66EC2D007E81E6 /* PBXContainerItemProxy */;
+		};
+		DAA577331C66EFCA007E81E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4AF8B41B276E060020252E /* ANCommonKit */;
+			targetProxy = DAA577341C66EFCA007E81E6 /* PBXContainerItemProxy */;
+		};
+		DAA577471C66F09E007E81E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA577321C66EFCA007E81E6 /* AnimeTrakrWatching */;
+			targetProxy = DAA577461C66F09E007E81E6 /* PBXContainerItemProxy */;
 		};
 		DAB0126D1B5448930095AA3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2328,6 +2842,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3ABB693D5DECE103E9514C77 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				APP_NAME = Aozora;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Aozora.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2403,6 +2918,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC7A7DA6842DABB2A3D90AB9 /* Pods.release.xcconfig */;
 			buildSettings = {
+				APP_NAME = Aozora;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Aozora.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2872,6 +3388,195 @@
 			};
 			name = Release;
 		};
+		DAA5772E1C66EC2D007E81E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABB693D5DECE103E9514C77 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				APP_NAME = AnimeTrakr;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-AnimeTrakr";
+				CODE_SIGN_ENTITLEMENTS = AnimeTrakr.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Aozora copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-U,_JSContextGetGlobalObject",
+					"-Wl,-U,_JSEvaluateScript",
+					"-Wl,-U,_JSGlobalContextCreate",
+					"-Wl,-U,_JSGlobalContextRelease",
+					"-Wl,-U,_JSObjectCallAsFunction",
+					"-Wl,-U,_JSObjectIsFunction",
+					"-Wl,-U,_JSObjectMake",
+					"-Wl,-U,_JSObjectSetProperty",
+					"-Wl,-U,_JSStringCopyCFString",
+					"-Wl,-U,_JSStringCreateWithCFString",
+					"-Wl,-U,_JSStringRelease",
+					"-Wl,-U,_JSValueIsObject",
+					"-Wl,-U,_JSValueIsString",
+					"-Wl,-U,_JSValueMakeString",
+					"-Wl,-U,_JSValueToStringCopy",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"FontAwesome_iOS\"",
+					"-framework",
+					"\"HCSStarRatingView\"",
+					"-framework",
+					"\"JTSImageViewController\"",
+					"-framework",
+					"\"RMStore\"",
+					"-framework",
+					"\"RSKImageCropper\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Shimmer\"",
+					"-framework",
+					"\"TTTAttributedLabel\"",
+					"-framework",
+					"\"XCDYouTubeKit\"",
+					"-framework",
+					"\"XLPagerTabStrip\"",
+					"-framework",
+					"\"iRate\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D DEBUG \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EverFox.AnimeTrakr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "AnimeNow/AnimeNow-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAA5772F1C66EC2D007E81E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7A7DA6842DABB2A3D90AB9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				APP_NAME = AnimeTrakr;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-AnimeTrakr";
+				CODE_SIGN_ENTITLEMENTS = AnimeTrakr.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "Aozora copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl,-U,_JSContextGetGlobalObject",
+					"-Wl,-U,_JSEvaluateScript",
+					"-Wl,-U,_JSGlobalContextCreate",
+					"-Wl,-U,_JSGlobalContextRelease",
+					"-Wl,-U,_JSObjectCallAsFunction",
+					"-Wl,-U,_JSObjectIsFunction",
+					"-Wl,-U,_JSObjectMake",
+					"-Wl,-U,_JSObjectSetProperty",
+					"-Wl,-U,_JSStringCopyCFString",
+					"-Wl,-U,_JSStringCreateWithCFString",
+					"-Wl,-U,_JSStringRelease",
+					"-Wl,-U,_JSValueIsObject",
+					"-Wl,-U,_JSValueIsString",
+					"-Wl,-U,_JSValueMakeString",
+					"-Wl,-U,_JSValueToStringCopy",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"FontAwesome_iOS\"",
+					"-framework",
+					"\"HCSStarRatingView\"",
+					"-framework",
+					"\"JTSImageViewController\"",
+					"-framework",
+					"\"RMStore\"",
+					"-framework",
+					"\"RSKImageCropper\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Shimmer\"",
+					"-framework",
+					"\"TTTAttributedLabel\"",
+					"-framework",
+					"\"XCDYouTubeKit\"",
+					"-framework",
+					"\"XLPagerTabStrip\"",
+					"-framework",
+					"\"iRate\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EverFox.AnimeTrakr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "AnimeNow/AnimeNow-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAA577401C66EFCA007E81E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AnimeTrakrWatching.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				INFOPLIST_FILE = "AozoraWatching copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EverFox.AnimeTrakr.AnimeTrakrWatching;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAA577411C66EFCA007E81E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AnimeTrakrWatching.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				INFOPLIST_FILE = "AozoraWatching copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EverFox.AnimeTrakr.AnimeTrakrWatching;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2943,6 +3648,24 @@
 			buildConfigurations = (
 				DA6E12CC1B10D94200B278B0 /* Debug */,
 				DA6E12CD1B10D94200B278B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA5772D1C66EC2D007E81E6 /* Build configuration list for PBXNativeTarget "AnimeTrakr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA5772E1C66EC2D007E81E6 /* Debug */,
+				DAA5772F1C66EC2D007E81E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA5773F1C66EFCA007E81E6 /* Build configuration list for PBXNativeTarget "AnimeTrakrWatching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA577401C66EFCA007E81E6 /* Debug */,
+				DAA577411C66EFCA007E81E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

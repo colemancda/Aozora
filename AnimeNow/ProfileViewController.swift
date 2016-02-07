@@ -215,10 +215,10 @@ public class ProfileViewController: ThreadViewController {
         
         if user.isTheCurrentUser() {
             // If is current user, only show PRO when unlocked in-apps
-            if let _ = InAppController.purchasedProPlus() {
+            if InAppController.purchasedProPlus() {
                 proBadge.hidden = false
                 proBadge.text = proPlusString
-            } else if let _ = InAppController.purchasedPro() {
+            } else if InAppController.purchasedPro() {
                 proBadge.hidden = false
                 proBadge.text = proString
             }
@@ -581,8 +581,8 @@ public class ProfileViewController: ThreadViewController {
     func scrollViewDidScroll(scrollView: UIScrollView) {
         
         let topSpace = tableView.tableHeaderView!.bounds.size.height - 44 - scrollView.contentOffset.y
-        if topSpace < 55 {
-            segmentedControlTopSpaceConstraint.constant = 55
+        if topSpace < 64 {
+            segmentedControlTopSpaceConstraint.constant = 64
         } else {
             segmentedControlTopSpaceConstraint.constant = topSpace
         }

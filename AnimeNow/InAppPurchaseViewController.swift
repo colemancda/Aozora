@@ -19,7 +19,7 @@ class InAppPurchaseViewController: UITableViewController {
     @IBOutlet weak var proButton: UIButton!
     @IBOutlet weak var proPlusButton: UIButton!
     
-    
+
     class func showInAppPurchaseWith(
         viewController: UIViewController) {
         
@@ -52,8 +52,9 @@ class InAppPurchaseViewController: UITableViewController {
     }
     
     func updateViewForPurchaseState() {
-        if let _ = InAppController.hasAnyPro() {
-            descriptionLabel.text = "Thanks for supporting Aozora! You're an exclusive Pro member that is helping us create an even better app"
+        if InAppController.hasAnyPro() {
+            let animeApp = AppEnvironment.application().rawValue
+            descriptionLabel.text = "Thanks for supporting \(animeApp)! You're an exclusive Pro member that is helping us create an even better app"
         } else {
             descriptionLabel.text = "Browse all seasonal charts, unlock calendar view, discover more anime, remove all ads forever, and more importantly helps us take Aozora to the next level"
         }
@@ -62,7 +63,7 @@ class InAppPurchaseViewController: UITableViewController {
     func fetchProducts() {
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         loadingView.startAnimating()
-        let products: Set = [ProInAppPurchase, ProPlusInAppPurchase]
+        let products: Set = [InAppController.ProIdentifier, InAppController.ProPlusIdentifier]
         RMStore.defaultStore().requestProducts(products, success: { (products, invalidProducts) -> Void in
             UIApplication.sharedApplication().networkActivityIndicatorVisible = false
             self.setPrices()
@@ -80,18 +81,18 @@ class InAppPurchaseViewController: UITableViewController {
     
     func setPrices() {
         
-        if let _ = InAppController.purchasedPro() {
+        if InAppController.purchasedPro() {
             proButton.setTitle("Unlocked", forState: .Normal)
         } else {
-            let product = RMStore.defaultStore().productForIdentifier(ProInAppPurchase)
+            let product = RMStore.defaultStore().productForIdentifier(InAppController.ProIdentifier)
             let localizedPrice = RMStore.localizedPriceOfProduct(product)
             proButton.setTitle(localizedPrice, forState: .Normal)
         }
         
-        if let _ = InAppController.purchasedProPlus(){
+        if InAppController.purchasedProPlus() {
             proPlusButton.setTitle("Unlocked", forState: .Normal)
         } else {
-            let product = RMStore.defaultStore().productForIdentifier(ProPlusInAppPurchase)
+            let product = RMStore.defaultStore().productForIdentifier(InAppController.ProPlusIdentifier)
             let localizedPrice = RMStore.localizedPriceOfProduct(product)
             proPlusButton.setTitle(localizedPrice, forState: .Normal)
         }
@@ -111,11 +112,11 @@ class InAppPurchaseViewController: UITableViewController {
     }
     
     @IBAction func buyProPressed(sender: AnyObject) {
-        purchaseProductWithID(ProInAppPurchase)
+        purchaseProductWithID(InAppController.ProIdentifier)
     }
     
     @IBAction func buyProPlusPressed(sender: AnyObject) {
-        purchaseProductWithID(ProPlusInAppPurchase)
+        purchaseProductWithID(InAppController.ProPlusIdentifier)
     }
     
 }

@@ -348,19 +348,6 @@ class ChartViewController: UIViewController {
             DropDownListViewController.showDropDownListWith(sender: sender, viewController: viewController, delegate: self, dataSource: dataSource, imageDataSource: imageDataSource)
         }
     }
-    
-    @IBAction func showCalendarPressed(sender: AnyObject) {
-        
-        if let _ = InAppController.hasAnyPro() {
-            
-            let controller = UIStoryboard(name: "Season", bundle: nil).instantiateViewControllerWithIdentifier("Calendar") as! CalendarViewController
-            presentViewController(controller, animated: true, completion: nil)
-            
-        } else {
-            InAppPurchaseViewController.showInAppPurchaseWith(self)
-        }
-        
-    }
 }
 
 extension ChartViewController: UICollectionViewDataSource {

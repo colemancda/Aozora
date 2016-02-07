@@ -11,17 +11,29 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 import ANParseKit
 import ParseFacebookUtilsV4
+import ANCommonKit
 
 class OnboardingViewController: UIViewController {
 
     @IBOutlet weak var facebookLoginButton: UIButton!
-    
+    @IBOutlet weak var appNameLabel: UILabel!
+    @IBOutlet weak var appNameJapaneseLabel: UILabel!
+
     var isInWindowRoot = true
     var loggedInWithFacebook = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+
+        if AppEnvironment.application() == .Aozora {
+            appNameLabel.text = "Aozora"
+        } else {
+            appNameLabel.text = "AnimeTrakr"
+            appNameLabel.font = UIFont.boldSystemFontOfSize(32)
+            appNameJapaneseLabel.hidden = true
+        }
+
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
