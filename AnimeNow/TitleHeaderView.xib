@@ -67,7 +67,7 @@
                         <color key="highlightedColor" red="0.18823529780000001" green="0.19607843459999999" blue="0.23529411850000001" alpha="1" colorSpace="calibratedRGB"/>
                     </label>
                 </subviews>
-                <color key="backgroundColor" red="0.89411765340000005" green="0.89411765340000005" blue="0.89411765340000005" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="backgroundColor" white="0.94916466489999995" alpha="1" colorSpace="calibratedWhite"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="Z6u-Y6-Q8w" secondAttribute="trailing" id="D3c-SK-ve5"/>
                     <constraint firstAttribute="bottom" secondItem="Z6u-Y6-Q8w" secondAttribute="bottom" id="I0a-9W-s8d"/>
@@ -78,7 +78,7 @@
                     <constraint firstItem="0wD-PS-gN9" firstAttribute="leading" secondItem="2Rq-hK-LHz" secondAttribute="leading" id="qGf-jY-Loa"/>
                 </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" red="0.89411765340000005" green="0.89411765340000005" blue="0.89411765340000005" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.95280940861881525" alpha="1" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="actionButton" destination="GkG-bH-zby" id="wqk-QY-aMO"/>
                 <outlet property="actionContentView" destination="Z6u-Y6-Q8w" id="DxX-5Q-Ejj"/>

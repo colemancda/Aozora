@@ -69,7 +69,7 @@
                     </label>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5uH-cu-Dj6">
                         <rect key="frame" x="8" y="8" width="83" height="116"/>
-                        <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.94916466489999995" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="5uH-cu-Dj6" secondAttribute="height" multiplier="83:116" id="9EP-bY-i3V"/>
                             <constraint firstAttribute="width" priority="999" constant="83" id="NsB-bD-5HR"/>
@@ -102,7 +102,7 @@
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
-            <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="fFG-pC-x7g" firstAttribute="leading" secondItem="eOO-bR-QZj" secondAttribute="leading" id="Cbe-hT-99c"/>
                 <constraint firstItem="fFG-pC-x7g" firstAttribute="top" secondItem="nWh-E7-yvh" secondAttribute="topMargin" constant="-2" id="Cjo-cb-loT"/>

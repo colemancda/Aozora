@@ -103,7 +103,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.97254902119999997" green="0.97254902119999997" blue="0.97254902119999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="TU3-oW-uPW" firstAttribute="leading" secondItem="uq4-Rh-3gi" secondAttribute="leading" constant="8" id="3g0-Va-XYS"/>
                             <constraint firstAttribute="height" constant="60" id="8Vb-ci-5IB"/>
@@ -183,7 +183,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zP7-Tx-6PJ">
                                 <rect key="frame" x="-1" y="0.0" width="305" height="158"/>
-                                <color key="backgroundColor" red="0.89411765340000005" green="0.89411765340000005" blue="0.89411765340000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.94916466489999995" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" priority="999" constant="158" id="2Jv-Ok-Daa"/>
@@ -259,7 +259,7 @@
                         </variation>
                     </view>
                 </subviews>
-                <color key="backgroundColor" red="0.97254902119999997" green="0.97254902119999997" blue="0.97254902119999997" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="calibratedWhite"/>
                 <constraints>
                     <constraint firstItem="VaL-XJ-E85" firstAttribute="top" secondItem="ZoD-9K-lVw" secondAttribute="bottom" constant="8" id="29i-nD-sdQ"/>
                     <constraint firstAttribute="bottom" secondItem="lCI-hI-2bZ" secondAttribute="bottom" constant="-0.5" id="74O-Y1-K7B"/>
