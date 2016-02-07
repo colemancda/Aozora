@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="C0d-Zn-JUq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="C0d-Zn-JUq">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -14,7 +14,7 @@
         <!--Onboarding View Controller-->
         <scene sceneID="eS3-Tt-ZOt">
             <objects>
-                <viewController storyboardIdentifier="Onboarding" id="C0d-Zn-JUq" customClass="OnboardingViewController" customModule="Aozora" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Onboarding" id="C0d-Zn-JUq" customClass="OnboardingViewController" customModule="AnimeTrakr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TKA-wr-RMU"/>
                         <viewControllerLayoutGuide type="bottom" id="a4n-g2-9As"/>
@@ -159,7 +159,7 @@
                                     <constraint firstAttribute="height" constant="35" id="hMN-Db-lNs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                <state key="normal" title="  Log in to Aozora   " image="icon-mail2">
+                                <state key="normal" title="  Log in" image="icon-mail2">
                                     <color key="titleColor" red="0.18823529780000001" green="0.19607843459999999" blue="0.23529411850000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -278,6 +278,8 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="appNameJapaneseLabel" destination="9bM-ql-OJH" id="deZ-GA-w1h"/>
+                        <outlet property="appNameLabel" destination="Yae-XY-fBS" id="P7g-Wb-d1y"/>
                         <outlet property="facebookLoginButton" destination="k2c-Qn-xnx" id="jKa-7c-Wow"/>
                         <segue destination="aht-ee-gPe" kind="presentation" identifier="showSignIn" id="3kt-37-8Vg"/>
                         <segue destination="DLY-qY-DIR" kind="presentation" identifier="showSignUp" id="Gdl-19-EIt"/>
@@ -290,7 +292,7 @@
         <!--Sign In View Controller-->
         <scene sceneID="BEq-AK-Tio">
             <objects>
-                <viewController storyboardIdentifier="SignIn" id="aht-ee-gPe" customClass="SignInViewController" customModule="Aozora" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignIn" id="aht-ee-gPe" customClass="SignInViewController" customModule="AnimeTrakr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QTY-rQ-hEh"/>
                         <viewControllerLayoutGuide type="bottom" id="mqO-2u-egc"/>
@@ -450,7 +452,7 @@
         <!--Reset Password View Controller-->
         <scene sceneID="mcl-h4-YZ9">
             <objects>
-                <viewController id="cWG-K4-PqA" customClass="ResetPasswordViewController" customModule="Aozora" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cWG-K4-PqA" customClass="ResetPasswordViewController" customModule="AnimeTrakr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="obe-Om-cSV"/>
                         <viewControllerLayoutGuide type="bottom" id="vYV-hG-LdV"/>
@@ -551,7 +553,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="LDr-KT-k7f">
             <objects>
-                <viewController storyboardIdentifier="SignUp" id="DLY-qY-DIR" customClass="SignUpViewController" customModule="Aozora" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUp" id="DLY-qY-DIR" customClass="SignUpViewController" customModule="AnimeTrakr" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5s1-fN-tuu"/>
                         <viewControllerLayoutGuide type="bottom" id="2GL-Zl-REo"/>

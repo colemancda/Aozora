@@ -103,7 +103,7 @@
                                                         <rect key="frame" x="8" y="32" width="784" height="19"/>
                                                     </variation>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text=" " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gB2-v6-eC0">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" misplaced="YES" text=" " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gB2-v6-eC0">
                                                     <rect key="frame" x="8" y="14" width="14" height="15"/>
                                                     <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="14"/>
                                                     <color key="textColor" red="0.0078431377190000002" green="0.43921568989999998" blue="0.73333334920000004" alpha="1" colorSpace="calibratedRGB"/>

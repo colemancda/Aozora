@@ -16,7 +16,15 @@ extension MMWormhole {
     }
 
     public class func aozoraWormhole() -> MMWormhole {
-        return MMWormhole(applicationGroupIdentifier: "group.anytap.Aozora", optionalDirectory: "wormwhole")
+        var groupIdentifier = ""
+        if AppEnvironment.application() == .Aozora {
+            groupIdentifier = "group.anytap.Aozora"
+        } else {
+            groupIdentifier = "group.EverFox.AnimeTrakr.TodayExtension"
+        }
+
+        return MMWormhole(applicationGroupIdentifier: groupIdentifier, optionalDirectory: "wormwhole")
+
     }
     
     public func messageWatchingList() -> [AnimeData]? {

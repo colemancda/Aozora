@@ -121,7 +121,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func prepareForAds() {
         // Ads
-        if InAppController.hasAnyPro() == nil {
+        if !InAppController.hasAnyPro() {
             UIViewController.prepareInterstitialAds()
         }
     }

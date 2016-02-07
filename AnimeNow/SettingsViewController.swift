@@ -37,12 +37,13 @@ class SettingsViewController: UITableViewController {
     }
     
     func updateLoginButton() {
+        let animeApp = AppEnvironment.application().rawValue
         if User.currentUserLoggedIn() {
             // Logged In both
-            loginLabel.text = "Logout Aozora"
+            loginLabel.text = "Logout \(animeApp)"
         } else if User.currentUserIsGuest() {
             // User is guest
-            loginLabel.text = "Login Aozora"
+            loginLabel.text = "Login \(animeApp)"
         }
         
         if User.syncingWithMyAnimeList() {
@@ -78,8 +79,8 @@ class SettingsViewController: UITableViewController {
                 let alert = UIAlertController(title: nil, message: nil, preferredStyle: UIAlertControllerStyle.ActionSheet)
                 alert.popoverPresentationController?.sourceView = cell.superview
                 alert.popoverPresentationController?.sourceRect = cell.frame
-                
-                alert.addAction(UIAlertAction(title: "Logout Aozora", style: UIAlertActionStyle.Destructive, handler: { (action) -> Void in
+                let animeApp = AppEnvironment.application().rawValue
+                alert.addAction(UIAlertAction(title: "Logout \(animeApp)", style: UIAlertActionStyle.Destructive, handler: { (action) -> Void in
                     
                     WorkflowController.logoutUser().continueWithExecutor( BFExecutor.mainThreadExecutor(), withSuccessBlock: { (task: BFTask!) -> AnyObject! in
                         
@@ -207,8 +208,8 @@ class SettingsViewController: UITableViewController {
             var message = ""
             if let user = User.currentUser() where
                     user.hasTrial() &&
-                    InAppController.purchasedPro() == nil &&
-                    InAppController.purchasedProPlus() == nil {
+                    !InAppController.purchasedPro() &&
+                    !InAppController.purchasedProPlus() {
                 message = "** You're on a 15 day PRO trial **\n"
             }
             message += "Going PRO unlocks all features and help us keep improving the app"
@@ -218,7 +219,8 @@ class SettingsViewController: UITableViewController {
         case 3:
             let version = NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as! String
             let build = NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String
-            return "Created by Anime fans for Anime fans, enjoy!\nAozora \(version) (\(build))"
+            let animeApp = AppEnvironment.application().rawValue
+            return "Created by Anime fans for Anime fans, enjoy!\n\(animeApp) \(version) (\(build))"
         default:
             return nil
         }

@@ -53,9 +53,9 @@ class InAppTransactionController {
         for transaction in transactions {
             let productIdentifier = transaction.payment.productIdentifier
             
-            if productIdentifier == ProPlusInAppPurchase {
+            if productIdentifier == InAppController.ProPlusIdentifier {
                 User.currentUser()!.addUniqueObject("PRO+", forKey: "badges")
-            } else if productIdentifier == ProInAppPurchase {
+            } else if productIdentifier == InAppController.ProIdentifier {
                 User.currentUser()!.addUniqueObject("PRO", forKey: "badges")
             }
             User.currentUser()!.saveInBackground()

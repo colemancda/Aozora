@@ -149,7 +149,7 @@ extension EpisodesViewController: UICollectionViewDelegate {
         let episode = dataSource[indexPath.row]
         let threadController = ANAnimeKit.customThreadViewController()
         threadController.initWithEpisode(episode, anime: anime)
-        if InAppController.hasAnyPro() == nil {
+        if !InAppController.hasAnyPro() {
             threadController.interstitialPresentationPolicy = .Automatic
         }
         

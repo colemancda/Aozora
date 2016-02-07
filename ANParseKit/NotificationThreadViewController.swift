@@ -167,7 +167,7 @@ public class NotificationThreadViewController: ThreadViewController {
                 threadController.initWithThread(thread!)
             }
             
-            if InAppController.hasAnyPro() == nil {
+            if !InAppController.hasAnyPro() {
                 threadController.interstitialPresentationPolicy = .Automatic
             }
             navigationController?.pushViewController(threadController, animated: true)

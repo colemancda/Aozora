@@ -7,41 +7,65 @@
 //
 
 import Foundation
+import ANCommonKit
 
+// Aozora
 public let ProInAppPurchase = "com.anytap.Aozora.Pro"
 public let ProPlusInAppPurchase = "com.anytap.Aozora.ProPlus"
 
+// AnimeTrakr
+public let ATPurchaseIDAnimeTrakrPRO = "com.EverFox.AnimeTrakr.AnimeTrakr" // PRO+
+public let ATPurchaseIDCheckIn = "com.EverFox.AnimeTrakr.CheckIn" // PRO
+// AnimeTrakr Deprecated
+public let ATPurchaseIDAllFeatures = "com.EverFox.AnimeTrakr.AllFeatures" // PRO+
+public let ATPurchaseIDEpisodeFeed = "com.EverFox.AnimeTrakr.EpisodeFeed" // PRO
+public let ATPurchaseIDNoAds = "com.EverFox.AnimeTrakr.NoAds" // PRO
+public let ATPurchaseIDSync = "com.EverFox.AnimeTrakr.Sync" // PRO
+
 public class InAppController {
 
-    public class func canDisplayAds() -> Bool {
-        return hasAnyPro() == nil
+    public static var ProIdentifier: String {
+        return AppEnvironment.application() == .Aozora ? ProInAppPurchase : ATPurchaseIDCheckIn
     }
 
-    public class func hasAnyPro() -> Int? {
+    public static var ProPlusIdentifier: String {
+        return AppEnvironment.application() == .Aozora ? ProPlusInAppPurchase : ATPurchaseIDAnimeTrakrPRO
+    }
+
+    public class func canDisplayAds() -> Bool {
+        return !hasAnyPro()
+    }
+
+    public class func hasAnyPro() -> Bool {
         guard let user = User.currentUser() else {
-            return nil
+            return false
         }
-        return (purchasedPro() != nil ||
-                purchasedProPlus() != nil || user.hasTrial()) ? 1 : nil
+        return purchasedPro() || purchasedProPlus() || user.hasTrial()
     }
     
-    public class func purchasedPro() -> Int? {
+    public class func purchasedPro() -> Bool {
         guard let user = User.currentUser() else {
-            return nil
+            return false
         }
-        let identifier = ProInAppPurchase
-        let pro = NSUserDefaults.standardUserDefaults().boolForKey(identifier) ||
-            user.unlockedContent.indexOf(identifier) != nil
-        return pro ? 1 : nil
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+
+        let pro = userDefaults.boolForKey(InAppController.ProIdentifier) ||
+            user.unlockedContent.indexOf(InAppController.ProIdentifier) != nil ||
+            userDefaults.boolForKey(ATPurchaseIDEpisodeFeed) ||
+            userDefaults.boolForKey(ATPurchaseIDNoAds) ||
+            userDefaults.boolForKey(ATPurchaseIDSync)
+
+        return pro
     }
     
-    public class func purchasedProPlus() -> Int? {
+    public class func purchasedProPlus() -> Bool {
         guard let user = User.currentUser() else {
-            return nil
+            return false
         }
-        let identifier = ProPlusInAppPurchase
-        let proPlus = NSUserDefaults.standardUserDefaults().boolForKey(identifier) ||
-        user.unlockedContent.indexOf(identifier) != nil
-        return proPlus ? 1 : nil
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        let proPlus = userDefaults.boolForKey(InAppController.ProPlusIdentifier) ||
+            user.unlockedContent.indexOf(InAppController.ProPlusIdentifier) != nil ||
+            userDefaults.boolForKey(ATPurchaseIDAllFeatures)
+        return proPlus
     }
 }
