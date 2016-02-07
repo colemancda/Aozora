@@ -26,7 +26,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="d1u-7S-LMD">
-                                <rect key="frame" x="0.0" y="64" width="600" height="531"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" red="0.97254902124404907" green="0.97254902124404907" blue="0.97254902124404907" alpha="1" colorSpace="calibratedRGB"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="rao-WO-xIA">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="334"/>
@@ -485,7 +485,7 @@
                                         <rect key="frame" x="35" y="3" width="530" height="20"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IWu-ae-zoS">
-                                                <rect key="frame" x="0.0" y="0.0" width="530" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.5" width="530" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -563,7 +563,7 @@
                             <constraint firstItem="rTn-ZB-ad5" firstAttribute="leading" secondItem="HlU-X1-Ecf" secondAttribute="leadingMargin" constant="-16" id="crp-Ag-bfi"/>
                             <constraint firstItem="rTn-ZB-ad5" firstAttribute="leading" secondItem="HlU-X1-Ecf" secondAttribute="leading" id="dTv-TP-PmD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rTn-ZB-ad5" secondAttribute="trailing" constant="-16" id="k8T-CM-Hoj"/>
-                            <constraint firstItem="m3L-C8-Edn" firstAttribute="top" secondItem="d1u-7S-LMD" secondAttribute="bottom" constant="-44" id="lOO-xj-JQd"/>
+                            <constraint firstItem="m3L-C8-Edn" firstAttribute="top" secondItem="d1u-7S-LMD" secondAttribute="bottom" id="lOO-xj-JQd"/>
                             <constraint firstAttribute="trailing" secondItem="YIr-RB-cEk" secondAttribute="trailing" id="pec-jE-cL0"/>
                             <constraint firstItem="YIr-RB-cEk" firstAttribute="top" secondItem="rTn-ZB-ad5" secondAttribute="bottom" id="uYE-3a-prC"/>
                         </constraints>
@@ -692,7 +692,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-wz-hXc">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="595"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                 <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="800" id="2vO-hf-YGm">
@@ -962,7 +962,7 @@
                         <constraints>
                             <constraint firstItem="D4j-wz-hXc" firstAttribute="top" secondItem="WWu-Jg-4mu" secondAttribute="bottom" constant="-64" id="26X-ht-MMg"/>
                             <constraint firstItem="D4j-wz-hXc" firstAttribute="leading" secondItem="9fZ-EQ-cfX" secondAttribute="leading" id="3xV-mp-9P7"/>
-                            <constraint firstItem="HjL-4o-xg9" firstAttribute="top" secondItem="D4j-wz-hXc" secondAttribute="bottom" constant="-44" id="TfS-Bl-90I"/>
+                            <constraint firstItem="HjL-4o-xg9" firstAttribute="top" secondItem="D4j-wz-hXc" secondAttribute="bottom" id="TfS-Bl-90I"/>
                             <constraint firstAttribute="trailing" secondItem="D4j-wz-hXc" secondAttribute="trailing" id="dyo-ZF-2We"/>
                         </constraints>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -1016,7 +1016,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1iH-3O-1pN" userLabel="Collection View Episodes">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                 <color key="backgroundColor" red="0.97254902119999997" green="0.97254902119999997" blue="0.97254902119999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VjZ-Jm-hk8">
@@ -1239,7 +1239,7 @@
                             <constraint firstAttribute="trailing" secondItem="1iH-3O-1pN" secondAttribute="trailing" id="L31-Pc-0DS"/>
                             <constraint firstItem="1iH-3O-1pN" firstAttribute="top" secondItem="q1F-Z5-LyK" secondAttribute="bottom" constant="-64" id="NGn-jL-q2u"/>
                             <constraint firstItem="1iH-3O-1pN" firstAttribute="leading" secondItem="f41-OW-Y0r" secondAttribute="leading" id="XeR-nc-5rT"/>
-                            <constraint firstItem="WXh-aK-uNd" firstAttribute="top" secondItem="1iH-3O-1pN" secondAttribute="bottom" constant="-49" id="xdx-ca-6EQ"/>
+                            <constraint firstItem="WXh-aK-uNd" firstAttribute="top" secondItem="1iH-3O-1pN" secondAttribute="bottom" id="xdx-ca-6EQ"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="cOz-1V-CbH"/>

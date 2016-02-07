@@ -462,38 +462,21 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="c0T-TP-ObK" secondAttribute="trailing" constant="12" id="0V7-kU-2Af"/>
                             <constraint firstItem="zBp-r0-AD0" firstAttribute="leading" secondItem="sY9-wc-JPh" secondAttribute="leading" id="0lZ-Rs-x6P"/>
-                            <constraint firstItem="B3n-Tx-huN" firstAttribute="trailing" secondItem="sY9-wc-JPh" secondAttribute="trailing" constant="-8" id="1tT-DD-crl"/>
                             <constraint firstItem="zBp-r0-AD0" firstAttribute="top" secondItem="wrh-pK-qrQ" secondAttribute="topMargin" constant="337" id="6PD-Mv-cHS"/>
                             <constraint firstItem="zBp-r0-AD0" firstAttribute="trailing" secondItem="sY9-wc-JPh" secondAttribute="trailing" id="Bxb-hT-2hg"/>
-                            <constraint firstItem="B3n-Tx-huN" firstAttribute="leading" secondItem="sY9-wc-JPh" secondAttribute="leading" constant="8" id="Cda-CL-14v"/>
                             <constraint firstItem="xjQ-kx-jPV" firstAttribute="top" secondItem="c0T-TP-ObK" secondAttribute="bottom" constant="15" id="Jg3-d9-bNs"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="c0T-TP-ObK" secondAttribute="trailing" constant="12" id="ROE-Dk-Ar6"/>
                             <constraint firstItem="xjQ-kx-jPV" firstAttribute="top" secondItem="sY9-wc-JPh" secondAttribute="bottom" constant="-49" id="W8c-aA-Ma7"/>
-                            <constraint firstAttribute="trailing" secondItem="zBp-r0-AD0" secondAttribute="trailing" id="YRF-oB-HUr"/>
                             <constraint firstItem="sY9-wc-JPh" firstAttribute="top" secondItem="UR8-Cc-VZl" secondAttribute="bottom" constant="-64" id="c5q-Xd-5Ag"/>
                             <constraint firstAttribute="trailing" secondItem="sY9-wc-JPh" secondAttribute="trailing" id="ccb-uj-bGA">
                                 <variation key="heightClass=regular-widthClass=regular" constant="50"/>
                             </constraint>
-                            <constraint firstItem="sY9-wc-JPh" firstAttribute="centerX" secondItem="wrh-pK-qrQ" secondAttribute="centerX" id="iPm-1s-EnE"/>
                             <constraint firstItem="sY9-wc-JPh" firstAttribute="leading" secondItem="wrh-pK-qrQ" secondAttribute="leading" id="xFy-eM-Tgf">
                                 <variation key="heightClass=regular-widthClass=regular" constant="50"/>
                             </constraint>
-                            <constraint firstItem="zBp-r0-AD0" firstAttribute="leading" secondItem="wrh-pK-qrQ" secondAttribute="leading" id="z3B-0T-oRH"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="iPm-1s-EnE"/>
-                                <exclude reference="YRF-oB-HUr"/>
-                                <exclude reference="z3B-0T-oRH"/>
-                                <exclude reference="1tT-DD-crl"/>
-                                <exclude reference="Cda-CL-14v"/>
-                                <exclude reference="ROE-Dk-Ar6"/>
-                            </mask>
-                        </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="constraints">
                                 <exclude reference="ccb-uj-bGA"/>
-                                <include reference="iPm-1s-EnE"/>
                                 <exclude reference="xFy-eM-Tgf"/>
                             </mask>
                         </variation>

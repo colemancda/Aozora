@@ -26,6 +26,9 @@ class NotificationsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        canDisplayBannerAds = InAppController.canDisplayAds()
+        
         title = "Notifications"
         tableView.estimatedRowHeight = 112.0
         tableView.rowHeight = UITableViewAutomaticDimension

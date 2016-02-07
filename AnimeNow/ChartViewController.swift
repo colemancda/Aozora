@@ -462,30 +462,17 @@ extension ChartViewController: UICollectionViewDelegate {
 
 extension ChartViewController: DropDownListDelegate {
     func selectedAction(trigger: UIView, action: String, indexPath: NSIndexPath) {
-        
-        if let _ = InAppController.hasAnyPro() {
-            
-            if trigger.isEqual(navigationController?.navigationBar) {
-                switch (indexPath.row, indexPath.section) {
-                case (_, 0):
-                    currentSeasonalChartName = action
-                    prepareForList(.SeasonalChart)
-                case (0,1):
-                    prepareForList(.AllSeasons)
-                default: break
-                }
-                
+        if trigger.isEqual(navigationController?.navigationBar) {
+            switch (indexPath.row, indexPath.section) {
+            case (_, 0):
+                currentSeasonalChartName = action
+                prepareForList(.SeasonalChart)
+            case (0,1):
+                prepareForList(.AllSeasons)
+            default: break
             }
             
         }
-        
-    }
-    
-    func dropDownDidDismissed(selectedAction: Bool) {
-        if selectedAction && InAppController.hasAnyPro() == nil {
-            InAppPurchaseViewController.showInAppPurchaseWith(self)
-        }
-        
     }
 }
 

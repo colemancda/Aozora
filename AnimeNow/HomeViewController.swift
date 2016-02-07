@@ -55,8 +55,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // FIXME: WARNING CHECK THIS OUT
-        canDisplayBannerAds = false
+        canDisplayBannerAds = InAppController.canDisplayAds()
 
         TitleHeaderView.registerNibFor(tableView: tableView)
         TableCellWithCollection.registerNibFor(tableView: tableView)
@@ -276,11 +275,6 @@ class HomeViewController: UIViewController {
 
 private extension HomeViewController {
     func showCalendar() {
-        guard let _ = InAppController.hasAnyPro() else {
-            InAppPurchaseViewController.showInAppPurchaseWith(self)
-            return
-        }
-
         let controller = UIStoryboard(name: "Season", bundle: nil).instantiateViewControllerWithIdentifier("Calendar") as! CalendarViewController
         navigationController?.pushViewController(controller, animated: true)
     }

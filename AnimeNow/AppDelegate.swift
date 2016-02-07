@@ -253,6 +253,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIToolbar.appearance().barTintColor = UIColor.darkBlue()
         
         UITabBar.appearance().tintColor = UIColor.peterRiver()
+        UITabBar.appearance().translucent = false
         
         UITextField.appearance().textColor = UIColor.whiteColor()
     }

@@ -12,7 +12,11 @@ public let ProInAppPurchase = "com.anytap.Aozora.Pro"
 public let ProPlusInAppPurchase = "com.anytap.Aozora.ProPlus"
 
 public class InAppController {
-    
+
+    public class func canDisplayAds() -> Bool {
+        return hasAnyPro() == nil
+    }
+
     public class func hasAnyPro() -> Int? {
         guard let user = User.currentUser() else {
             return nil

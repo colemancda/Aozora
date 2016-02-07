@@ -44,6 +44,9 @@ public class CustomThreadViewController: ThreadViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
+
+        canDisplayBannerAds = InAppController.canDisplayAds()
+
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
     

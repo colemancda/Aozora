@@ -47,6 +47,8 @@ class ForumsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        canDisplayBannerAds = InAppController.canDisplayAds()
+
         tableView.estimatedRowHeight = 150.0
         tableView.rowHeight = UITableViewAutomaticDimension
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="x4L-h4-vA7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="x4L-h4-vA7">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -47,7 +47,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="61" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Fmw-jU-6m7">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="605"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <color key="backgroundColor" red="0.97254902119999997" green="0.97254902119999997" blue="0.97254902119999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="YFv-zO-dUD">
                                     <rect key="frame" x="0.0" y="147" width="600" height="20"/>
@@ -138,7 +138,7 @@
                             <constraint firstItem="Fmw-jU-6m7" firstAttribute="top" secondItem="h5Y-mc-GGy" secondAttribute="bottom" constant="-64" id="8hC-Kh-stN"/>
                             <constraint firstAttribute="trailing" secondItem="Fmw-jU-6m7" secondAttribute="trailing" id="8rt-gZ-S0p"/>
                             <constraint firstItem="Fmw-jU-6m7" firstAttribute="leading" secondItem="LXI-Zm-Occ" secondAttribute="leading" id="SgF-1z-4gS"/>
-                            <constraint firstItem="tIw-Kj-Jqx" firstAttribute="top" secondItem="Fmw-jU-6m7" secondAttribute="bottom" constant="-49" id="bwd-o4-Qsp"/>
+                            <constraint firstItem="tIw-Kj-Jqx" firstAttribute="top" secondItem="Fmw-jU-6m7" secondAttribute="bottom" id="bwd-o4-Qsp"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="IqJ-ss-AlO"/>

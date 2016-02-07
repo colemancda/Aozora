@@ -61,6 +61,8 @@ public class ProfileViewController: ThreadViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
+
+        canDisplayBannerAds = InAppController.canDisplayAds()
         
         segmentedControlView.hidden = true
         
@@ -579,8 +581,8 @@ public class ProfileViewController: ThreadViewController {
     func scrollViewDidScroll(scrollView: UIScrollView) {
         
         let topSpace = tableView.tableHeaderView!.bounds.size.height - 44 - scrollView.contentOffset.y
-        if topSpace < 64 {
-            segmentedControlTopSpaceConstraint.constant = 64
+        if topSpace < 55 {
+            segmentedControlTopSpaceConstraint.constant = 55
         } else {
             segmentedControlTopSpaceConstraint.constant = topSpace
         }
