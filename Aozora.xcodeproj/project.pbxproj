@@ -309,6 +309,7 @@
 		DAA5773D1C66EFCA007E81E6 /* badge-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA10E90F1C60774F0023F41F /* badge-green@2x.png */; };
 		DAA577481C66F0CA007E81E6 /* AnimeTrakrWatching.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DAA577421C66EFCA007E81E6 /* AnimeTrakrWatching.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DAA5774F1C66F2FF007E81E6 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA5774C1C66F17D007E81E6 /* AppEnvironment.swift */; };
+		DAA577521C682A78007E81E6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA577511C682A78007E81E6 /* CloudKit.framework */; };
 		DAB4DCA91C5CB79600924819 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4DCA81C5CB79600924819 /* HomeViewController.swift */; };
 		DAB4DCAB1C5CB7A100924819 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB4DCAA1C5CB7A100924819 /* Home.storyboard */; };
 		DAB4DCAD1C5CBE1F00924819 /* TableCellWithCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4DCAC1C5CBE1F00924819 /* TableCellWithCollection.swift */; };
@@ -713,6 +714,7 @@
 		DAA577451C66F051007E81E6 /* AnimeTrakr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = AnimeTrakr.entitlements; path = ../AnimeTrakr.entitlements; sourceTree = "<group>"; };
 		DAA5774C1C66F17D007E81E6 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEnvironment.swift; path = ../AnimeNow/AppEnvironment.swift; sourceTree = "<group>"; };
 		DAA577501C66F4C0007E81E6 /* Aozora.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Aozora.entitlements; sourceTree = SOURCE_ROOT; };
+		DAA577511C682A78007E81E6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		DAAD79921B30D087009D70ED /* ForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForumViewController.swift; path = ../ANAnimeKit/ForumViewController.swift; sourceTree = "<group>"; };
 		DAAD79941B30D918009D70ED /* TopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
 		DAB4DCA81C5CB79600924819 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -812,6 +814,7 @@
 				DAA576A71C669905007E81E6 /* Parse.framework in Frameworks */,
 				DAA576A11C669905007E81E6 /* FBSDKLoginKit.framework in Frameworks */,
 				3AFAD54CF969FDB7453A8239 /* Pods_Aozora.framework in Frameworks */,
+				DAA577521C682A78007E81E6 /* CloudKit.framework in Frameworks */,
 				DAA576971C669905007E81E6 /* Crashlytics.framework in Frameworks */,
 				DAA576A91C669905007E81E6 /* ParseFacebookUtilsV4.framework in Frameworks */,
 			);
@@ -1642,6 +1645,7 @@
 		F4F69FB5D8335951A772F9AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DAA577511C682A78007E81E6 /* CloudKit.framework */,
 				DAFB071D1C14FFFE00F7F745 /* libz.tbd */,
 				DAFB071B1C14FFC300F7F745 /* libsqlite3.tbd */,
 				DAFED2511BA716C4009697E4 /* libcommonCrypto.dylib */,
@@ -1916,6 +1920,9 @@
 								enabled = 1;
 							};
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
 								enabled = 1;
 							};
 						};
